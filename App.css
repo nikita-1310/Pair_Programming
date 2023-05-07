@@ -1,0 +1,38 @@
+*{
+  margin :0;
+  padding : 0;
+  box-sizing : boder-box;
+}
+.container{
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+}
+form{
+  background-color: rgb(189, 192, 192);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  padding: 100px;
+}
+form div{
+  margin: 10px;
+}
+label{
+  font-size: 25px;
+}
+input{
+  font-size: 20px;
+  margin-left: 50px;
+}
+#email{
+  margin-left: 85px;
+}
+button{
+  margin:20px 0 0 100px;
+  padding: 10px 50px;
+  border: 2px solid green;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
